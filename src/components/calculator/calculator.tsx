@@ -89,7 +89,6 @@ const Calculator = (props) => {
     expectingAnnuityRate,
   ]);
   variablePie(Highcharts);
-  // console.log((Highcharts as any).version);
 
   return (
     <div className="max-w-7xl mx-auto my-12 shadow-xl rounded-xl">
